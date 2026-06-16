@@ -2,7 +2,7 @@
 
 Public model-weight bundle for the AllVision Windows zero-touch installer.
 
-Source code lives in the private `allvision` repo. Only the inference weights
+Source code lives in the private repo. Only the inference weights
 are published here so the Windows installer (`scripts/setup/fetch_models.ps1`)
 can fetch them with built-in PowerShell `Invoke-WebRequest` — no `gh`, no auth,
 no `zstd`.
@@ -15,5 +15,5 @@ no `zstd`.
   manifest (sha256 + size). TensorRT `.engine` files are excluded — they are
   GPU-specific and built locally.
 
-Bundle provenance and checksums: private `allvision` repo,
+Bundle provenance and checksums: private repo,
 `models/bundle_manifest.json`.

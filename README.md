@@ -1,4 +1,4 @@
-# allvision-models
+# vision-models
 
 Public model-weight bundle for the AllVision Windows zero-touch installer.
 
